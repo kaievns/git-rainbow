@@ -2,4 +2,4 @@
 
 require_relative "../lib/git-rainbow"
 
-GitRainbow.show!
+GitRainbow.explode!
