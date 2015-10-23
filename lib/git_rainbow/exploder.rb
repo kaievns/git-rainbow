@@ -14,12 +14,12 @@ module GitRainbow
   end
 
   def command
-    %Q{ git commit #{ammend? ? '--amend' : ''} -m "#{message}" }
+    %Q{ git commit #{ammend? ? '--amend' : ''} -m "#{Painter.paint(message)}" }
   end
 
   def message
     ARGV.each_with_index do |arg, i|
-      if arg == "-m"
+      if arg == "-m" || arg == "--message"
         return ARGV[i+1]
       end
     end
