@@ -1,39 +1,31 @@
 # Git::Rainbow
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/git/rainbow`. To experiment with that code, run `bin/console` for an interactive prompt.
+According to our own research, every year there are millions
+of programmers suffer from the lack of rainbows in their git commits.
+It is a serious issue, which escalates with age due to the ever
+reducing number of dopamine receptors in the brain.
 
-TODO: Delete this and the text above, and describe your gem
+Lets leave those inhumane working conditions in the past! Introducing
+`git rainbow`!
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'git-rainbow'
+```
+gem install git-rainbow
 ```
 
-And then execute:
+Once you have that, go into your project and type:
 
-    $ bundle
+```
+git-rainbow -m 'Adding more rainbows to the project!'
+```
 
-Or install it yourself as:
+It works just like a normal `git commit`, but produces the a rainbowy
+commit text. If you've done everything right it should look kind of like
+this:
 
-    $ gem install git-rainbow
+![](./screen.png)
 
-## Usage
+## Copyright & License
 
-TODO: Write usage instructions here
+Mate, you can't patent rainbows!
 
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release` to create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/git-rainbow/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+-- Nikolay
